@@ -43,7 +43,6 @@ Note : Application perfom only one API call to get country details since above A
 ### Unit Test:
 Unit tests added using Mockito and junit.<br/>
 Presenter layer covered with unit tests.<br/>
-https://github.com/raminduw/Rebtell/tree/master/app/src/test/java/rebtel/raminduweeraman/com/rebtel
 
 ### Screens:
 Application has three screens.</br>
