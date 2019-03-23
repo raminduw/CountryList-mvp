@@ -31,7 +31,7 @@ Android Room database with rxjava2.
 
 ### Image downloading:
 Picasso - Square library use to download images.
-Image download URL is (https://www.geoips.com//assets/img/flag/128h/),  which has propoer naming convention using ISO standard(Alpha2Code)
+
 
 ### Offline Support:
 Applications supports to cache the results recived from the inital country list request(https://restcountries.eu/rest/v2/all). 
