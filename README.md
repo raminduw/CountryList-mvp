@@ -1,7 +1,5 @@
-# Rebtel Sample
+# Country List- MVP Sample
 
-###  APK File :<br/> 
-[DOWNLOAD LINK](https://drive.google.com/file/d/1oLKVy9y8cqrZ9ggUUL33I_1p5EDm0lnC/view?usp=sharing)
 
 ### Libraries Used:<br/>
 1) Retrofit2<br/>
@@ -20,7 +18,7 @@
  targetSdkVersion 27<br/>
  
 ### Application Id:
-rebtel.raminduweeraman.com.rebtel
+countrylist.raminduweeraman.com.mvp
 
 ### MVP Architecture:
 Followed MVP(Model-View-Presenter) architecture.<br/>This helps in proper deep Unit testing and code modularity.
@@ -53,5 +51,4 @@ Application has three screens.</br>
  02.Country list screen<br/>
  03.Country detail screen<br/>
 ![splash_screen](https://user-images.githubusercontent.com/5441853/50518637-a8fc1680-0af1-11e9-8e27-fb324363c655.png)
-![country_list_screen](https://user-images.githubusercontent.com/5441853/50518642-b1ece800-0af1-11e9-99ea-1f77f75355d4.png)
 ![country_detail_screen](https://user-images.githubusercontent.com/5441853/50518648-b74a3280-0af1-11e9-805b-f4694ce5d3f0.png)
