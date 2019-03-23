@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="@dimen/list_item_height"
+    android:gravity="center_vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/countryCode"
+        style="@style/listItemRoundText"
+        android:layout_width="@dimen/list_item_round_size"
+        android:layout_height="@dimen/list_item_round_size"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:background="@drawable/round_drawable"
+        android:gravity="center" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        style="@style/countryListItemStyle"
+        android:layout_toLeftOf="@+id/arrowIcon"
+        android:layout_toRightOf="@+id/countryCode">
+
+        <TextView
+            android:id="@+id/countryName"
+            style="@style/listItemCountyStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/countryRegion"
+            style="@style/listItemRegionStyle"
+            android:layout_below="@+id/countryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/arrowIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow_icon"
+        android:tint="@color/arrow_colour"
+        android:layout_marginRight="15dip"
+
+        />
+
+
+</RelativeLayout>

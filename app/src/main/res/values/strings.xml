@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CountryList</string>
+    <string name="title_activity_country_detail">CountryDetailActivity</string>
+    <string name="country_list_loading_failed">Country List Loading failed.</string>
+    <string name="country_detail_loading_failed">Country Detail Loading failed.</string>
+    <string name="loading">Loading...</string>
+    <string name="region">Region</string>
+    <string name="capital">Capital</string>
+    <string name="population">Population</string>
+    <string name="area">Area</string>
+    <string name="country_area" formatted="false"> %.0f km2</string>
+
+</resources>

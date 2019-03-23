@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="listItemRoundText">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="listItemCountyStyle">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/list_country_txt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="listItemRegionStyle">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/list_region_txt</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="countryFlagSectionStyle">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/white_bg</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+    <style name="countryDetailSectionStyle">
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/white_bg</item>
+
+    </style>
+
+    <style name="countryListItemStyle">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+
+    <style name="countryDetailLabelStyle">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/list_region_txt</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">30dip</item>
+        <item name="android:minWidth">120dip</item>
+    </style>
+
+    <style name="countryDetailValueStyle">
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/list_country_txt</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">5dip</item>
+    </style>
+
+    <style name="countryDetailViewLineStyle">
+        <item name="android:background">@color/bgLineColor</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+</resources>

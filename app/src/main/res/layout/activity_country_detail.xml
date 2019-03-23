@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    tools:context=".app.activities.CountryDetailActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/countryFlagLayout"
+        style="@style/countryFlagSectionStyle"
+        android:layout_width="@dimen/flag_bg_width"
+        android:layout_height="@dimen/flag_bg_height">
+
+        <ImageView
+            android:id="@+id/countryFlag"
+            android:layout_width="@dimen/flag_width"
+            android:layout_height="@dimen/flag_height"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/countryFlagLayout">
+
+        <RelativeLayout
+            style="@style/countryDetailSectionStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/country_detail_section_height">
+
+                <TextView
+                    android:id="@+id/regionLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailLabelStyle"
+                    android:text="@string/region" />
+
+                <TextView
+                    android:id="@+id/txtRegion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailValueStyle"
+                    android:layout_toRightOf="@+id/regionLabel" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_below="@+id/layout1"
+                style="@style/countryDetailViewLineStyle"/>
+
+            <RelativeLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/country_detail_section_height"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/view1">
+
+                <TextView
+                    android:id="@+id/capitalLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailLabelStyle"
+                    android:text="@string/capital" />
+
+                <TextView
+                    android:id="@+id/txtCapital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailValueStyle"
+                    android:layout_toRightOf="@+id/capitalLabel" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_below="@+id/layout2"
+                style="@style/countryDetailViewLineStyle"/>
+
+            <RelativeLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/country_detail_section_height"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/view2">
+
+                <TextView
+                    android:id="@+id/populationLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailLabelStyle"
+                    android:text="@string/population" />
+
+                <TextView
+                    android:id="@+id/txtPopulation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailValueStyle"
+                    android:layout_toRightOf="@+id/populationLabel" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_below="@+id/layout3"
+                style="@style/countryDetailViewLineStyle"/>
+
+            <RelativeLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/country_detail_section_height"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/view3">
+
+                <TextView
+                    android:id="@+id/areaLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailLabelStyle"
+                    android:text="@string/area" />
+
+                <TextView
+                    android:id="@+id/txtArea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/country_detail_section_height"
+                    style="@style/countryDetailValueStyle"
+                    android:layout_toRightOf="@+id/areaLabel" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
